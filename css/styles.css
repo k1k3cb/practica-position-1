@@ -1,0 +1,165 @@
+/* 
+colors: 
+  body background: #0c122c
+  card background: #1d2c67
+*/
+body {
+  text-align: center;
+  background-color: #111;
+  min-height: 100%;
+  font-family: sans-serif;
+}
+
+
+.card {
+
+
+  width: 854px;
+  height: 500px;
+  background-color: #0c122c;
+  position: relative;
+  left: 190px;
+  /* background: url(../assets/images/bg-desktop.png) no-repeat center; */
+  /* background-size: cover; */
+
+
+}
+
+.imagen-fondo-card {
+  position: absolute;
+  top: 260px;
+  left: 0;
+  width: 854px;
+  height: 240px;
+
+}
+
+/* ::caja de la izq:: */
+
+.box1 {
+  position: absolute;
+  border-radius: 10px;
+  border-top-right-radius: 70px;
+  top: 180px;
+  left: 140px;
+  width: 224px;
+  height: 140px;
+  background-color: #1d2c67
+}
+
+.logo {
+
+  position: absolute;
+  width: 100px;
+  height: auto;
+  top: 30px;
+  left: 25px;
+
+}
+
+.container-iconos {
+
+  position: absolute;
+  left: 25px;
+  top: 80px;
+}
+
+.iconos {
+  width: 15px;
+  padding: 10px 10px;
+  background-color: #0c122c;
+  border-radius: 5px;
+  margin-right: 5px;
+
+
+}
+
+/* ::caja de la der:: */
+
+.box2 {
+  position: absolute;
+  border-radius: 10px;
+  
+  top: 220px;
+  left: 400px;
+  width: 350px;
+  height: 100px;
+  background-color: #1d2c67
+}
+
+.text{
+  color: white;
+  font-size: 10px;
+}
+
+.text-sup{
+  position: absolute;
+  left: 30px;
+  top: 15px;
+}
+.text-inicio ,.text-fin{
+  display: inline-block;
+  top: 55px;
+}
+
+.text-inicio{
+  position: absolute;
+  left: 30px;
+}
+
+.text-fin{
+  position: absolute;
+  left: 250px;
+}
+
+.barra-carga{
+  position: absolute;
+  top: 44px;
+  left: 30px;
+  border-radius: 20px;
+  /* z-index: 1; */
+
+  height:12px;
+  width:50%;
+  background-color: violet;
+  /* modificar */
+}
+
+.barra-carga2{
+  position: absolute;
+  top: 44px;
+  left: 30px;
+  border-radius: 20px;
+
+  height:12px;
+  width:70%;
+  background-color: #0c122c;
+}
+
+.caja-sup{
+
+  background-color: white;
+  width: 120px;
+  height: 50px;
+  border-radius:10px ;
+  position: absolute;
+  left: 256px;
+  top: -30px;
+}
+
+.texto-caja-sup{
+  position:absolute ;
+  top: 15px;
+
+  font-size: 12px;
+  
+  
+}
+
+.numero{
+  font-weight: bold;
+  font-size: 20px;
+  padding-right: 5px;
+
+  /* modificar */
+}
